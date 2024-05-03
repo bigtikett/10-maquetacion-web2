@@ -1,0 +1,140 @@
+/* VARIABLES */
+:root {
+    --mx-width: 1320px;
+    --color-text-body: #d3d3d4;
+    --color-primary: #5956e9;
+    --color-secondary: #d3d3d4;
+    --color-banner: #27272e;
+    --color-text-btn: #fff;
+    --color-bg-btn: #2522ba;
+    --color-subtitle: #c75c6f;
+    --color-title: #d3d3d4;
+    --color-bg-services: #27272E;
+    --color-bg-projects: #292930;
+    --color-bg-dark: #27272E;
+    --color-text-description: #99a1aa;
+    --color-hover-dark: #ffdc60;
+    --color-borders: #393940;
+}
+
+body {
+    background-color: #212121;
+}
+
+.nav__title:hover {
+    color: var(--color-secondary);
+}
+
+.nav__title::before {
+    background-color: var(--color-secondary);
+}
+
+.nav__submenu {
+    background-color: var(--color-banner);
+}
+
+.submenu__title:hover {
+    color: var(--color-secondary);
+}
+
+.submenu__title::after {
+    background-color: var(--color-secondary);
+}
+
+.banner__btn {
+    background-color: var(--color-primary);    
+}
+
+.menu__navbar--fixed {
+    background-color: var(--color-banner);
+}
+
+.services__service {
+    background: var(--color-banner);
+    background-color: var(--color-banner);
+}
+
+.project__content {
+    background-color: var(--color-banner);
+}
+
+.project__title:hover {
+    color: var(--color-hover-dark);
+}
+
+.layout__contact::before {
+    background-color: var(--color-banner);
+}
+
+.new__more {
+    color: var(--color-text-body);
+}
+
+.service__more:hover, .service__title:hover {
+    color: var(--color-hover-dark);
+}
+
+.service__more:hover::before {
+    background-color: var(--color-hover-dark);
+}
+
+.author__name {
+    color: var(--color-text-body);
+}
+
+.contact__subtitle {
+    color: var(--color-hover-dark);
+}
+
+.contact__btn {
+    background-color: var(--color-primary);
+}
+
+.fleft__group {
+    background-color: #27272E;
+    box-shadow: none;
+}
+
+.fleft__form-control {
+    background-color: #27272E;
+}
+
+.widget__link:hover {
+    color: var(--color-hover-dark);
+}
+
+.contact__btn:hover {
+    color: var(--color-text-body);
+    background-color: var(--color-bg-btn);
+}
+
+.fleft_btn:hover {
+    color: var(--color-hover-dark);
+    transform: scale(1.2);
+}
+
+.news__new:hover {
+    border-top-color: var(--color-hover-dark);
+}
+
+.new__title:hover, .new__more:hover {
+    color: var(--color-hover-dark);
+}
+
+.social__link:hover .social__icon {
+    color: #ffdc60;
+}
+
+.text__link:hover {
+    color: #ffdc60;
+}
+
+.flinks__title:hover {
+    color:#ffdc60;
+}
+
+body::-webkit-scrollbar-thumb {
+    border: 10px solid transparent;
+    box-shadow: inset 0 0 0 10px var(--color-hover-dark);
+    border-radius: 40px;
+}
