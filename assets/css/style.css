@@ -1692,3 +1692,7 @@ body::-webkit-scrollbar-track {
 .navbar__logo-dark {
     display: none;
 }
+
+.transform {
+    transform: scale(1.2);
+}
